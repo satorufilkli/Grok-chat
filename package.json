@@ -1,0 +1,20 @@
+{
+  "name": "aichat",
+  "version": "1.0.0",
+  "description": "这是一个简单的 Web 应用，允许用户通过浏览器与 Grok AI 进行实时对话。用户需要提供自己的 API Key 来使用服务。",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "grok",
+    "ai",
+    "chat"
+  ],
+  "author": "satoru",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
